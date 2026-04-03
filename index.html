@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Shams</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Cairo', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      background: #020617;
+      font-size: 26px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: #38bdf8;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background: #38bdf8;
+      color: black;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      background: #0ea5e9;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 15px;
+      width: 250px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    footer {
+      padding: 20px;
+      background: #020617;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  🚀 Portfolio شمس
+</header>
+
+<section>
+  <h1>أنا شمس 👋</h1>
+  <p>مبرمج مهتم بالروبوتات و Arduino 🤖</p>
+  <a href="#projects" class="btn">مشاريعي</a>
+  <a href="#contact" class="btn">تواصل معي</a>
+</section>
+
+<section>
+  <h1>💻 مهاراتي</h1>
+  <div class="cards">
+    <div class="card">HTML ⭐⭐⭐⭐</div>
+    <div class="card">CSS ⭐⭐⭐</div>
+    <div class="card">JavaScript ⭐⭐</div>
+    <div class="card">Arduino ⭐⭐⭐⭐</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h1>🔥 مشاريعي</h1>
+  <div class="cards">
+    <div class="card">
+      🤖 روبوت زاحف  
+      <p>روبوت يدخل الأماكن الضيقة</p>
+    </div>
+    <div class="card">
+      🌐 موقع ويب  
+      <p>موقع تعريفي شخصي</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h1>📞 تواصل معي</h1>
+  <p>اكتب هنا الإيميل أو رقمك</p>
+</section>
+
+<footer>
+  © 2026 - شمس
+</footer>
+
+</body>
+</html>
